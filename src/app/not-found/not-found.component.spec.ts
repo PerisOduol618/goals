@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GoalDetailComponent } from './goal-detail.component';
+import { NotFoundComponent } from './not-found.component';
 
-
-describe('GoalDetailComponent', () => {
-  let component: GoalDetailComponent;
-  let fixture: ComponentFixture<GoalDetailComponent>;
+describe('NotFoundComponent', () => {
+  let component: NotFoundComponent;
+  let fixture: ComponentFixture<NotFoundComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GoalDetailComponent ]
+      declarations: [ NotFoundComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GoalDetailComponent);
+    fixture = TestBed.createComponent(NotFoundComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -24,4 +23,3 @@ describe('GoalDetailComponent', () => {
     expect(component).toBeTruthy();
   });
 });
-
