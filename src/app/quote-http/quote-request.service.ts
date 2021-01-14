@@ -26,7 +26,7 @@ export class QuoteRequestService {
 
         resolve()
       },
-      error=>{
+      error=>{ 
         this.quote.quote = "Never, never, never give up"
         this.quote.author = "Winston Churchill"
 

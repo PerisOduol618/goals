@@ -117,8 +117,16 @@
               "devServerTarget": "Goals:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "Goals"
+    }
+  },
+  "defaultProject": "Goals",
+  "cli": {
+    "analytics": "e7fa8a8b-cc45-425e-a021-df4dbd568b02"
+  }
 }
